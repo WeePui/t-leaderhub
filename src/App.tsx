@@ -1,7 +1,7 @@
 import { ConfigProvider } from "antd";
 import MainLayout from "./components/layout/MainLayout";
 import { Link } from "react-router-dom";
-import { Button } from "@components/ui/Button";
+import Button from "@components/ui/Button";
 
 function App() {
   return (
