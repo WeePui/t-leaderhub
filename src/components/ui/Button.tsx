@@ -1,8 +1,4 @@
-import React, {
-  type ButtonHTMLAttributes,
-  type ReactNode,
-  forwardRef,
-} from "react";
+import { type ButtonHTMLAttributes, type ReactNode, forwardRef } from "react";
 import "./button.css";
 import { type VariantProps } from "class-variance-authority";
 import { cn } from "@utils/cn";
