@@ -1,0 +1,53 @@
+/* Custom style for selected items while preserving border */
+.custom-sidebar .ant-menu-item-selected {
+  border-radius: 0 !important;
+  border-left: 3px solid #1677ff !important;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100% !important;
+}
+
+/* Add padding-x to all menu items and remove margin-block */
+.custom-sidebar > .ant-menu-inline > .ant-menu-item {
+  margin-block: 0 !important;
+  height: auto !important;
+  line-height: 1.5 !important;
+  width: 100% !important;
+}
+
+/* Set fixed padding for all top-level menu items (selected or not) */
+.custom-sidebar > .ant-menu-inline > .ant-menu-item,
+.custom-sidebar > .ant-menu-inline > .ant-menu-item-selected {
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
+
+/* Add padding-x to submenu titles and remove margin-block */
+.custom-sidebar
+  > .ant-menu-inline
+  > .ant-menu-submenu
+  > .ant-menu-submenu-title {
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+  margin-block: 0 !important;
+  height: auto !important;
+  line-height: 1.5 !important;
+}
+
+/* Keep original padding-left for submenu items but standardize other styles */
+.custom-sidebar .ant-menu-sub .ant-menu-item {
+  padding-right: 16px !important;
+  margin-block: 0 !important;
+  height: auto !important;
+  line-height: 40px !important;
+  width: 100% !important;
+}
+
+/* Remove default indicator */
+.custom-sidebar .ant-menu-item::after {
+  display: none !important;
+}
+
+.custom-sidebar .ant-menu-submenu-selected > .ant-menu-submenu-title {
+  color: #1677ff !important;
+}

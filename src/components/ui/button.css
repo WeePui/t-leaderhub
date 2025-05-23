@@ -1,0 +1,22 @@
+.button-animated {
+  transition: all 150ms ease-in-out;
+}
+
+.button-animated:hover {
+  animation-name: button-animation;
+  animation-duration: 150ms;
+  animation-timing-function: ease-in-out;
+  animation-delay: 600ms;
+}
+
+@keyframes button-animation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
