@@ -23,6 +23,10 @@ export default defineConfig({
         ),
       },
       {
+        find: "@constants",
+        replacement: fileURLToPath(new URL("./src/constants", import.meta.url)),
+      },
+      {
         find: "@features",
         replacement: fileURLToPath(new URL("./src/features", import.meta.url)),
       },

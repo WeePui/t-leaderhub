@@ -1,5 +1,13 @@
 # UI Components Documentation
 
+## Project Structure
+
+The project follows a modular structure:
+
+- `components/ui`: Contains reusable UI components
+- `constants`: Contains shared constants like styling variants
+- `utils`: Contains utility functions
+
 ## Button Component
 
 The Button component is a versatile, reusable button with support for multiple variants, sizes, icons, loading states, and animations.
