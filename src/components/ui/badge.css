@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+
+/* Badge dot styles */
+.badge-dot-icon {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.badge-dot-icon.gray {
+  background-color: #344054;
+}
+
+.badge-dot-icon.primary {
+  background-color: #6941c6;
+}
+
+.badge-dot-icon.error {
+  background-color: #b42318;
+}
+
+.badge-dot-icon.warning {
+  background-color: #b54708;
+}
+
+.badge-dot-icon.success {
+  background-color: #027a48;
+}
+
+.badge-dot-icon.blue-gray {
+  background-color: #363f72;
+}
+
+.badge-dot-icon.blue-light {
+  background-color: #026aa2;
+}
+
+.badge-dot-icon.blue {
+  background-color: #175cd3;
+}
+
+.badge-dot-icon.indigo {
+  background-color: #3538cd;
+}
+
+.badge-dot-icon.purple {
+  background-color: #5925dc;
+}
+
+.badge-dot-icon.pink {
+  background-color: #c11574;
+}
+
+.badge-dot-icon.rose {
+  background-color: #c01048;
+}
+
+.badge-dot-icon.orange {
+  background-color: #c4320a;
+}
